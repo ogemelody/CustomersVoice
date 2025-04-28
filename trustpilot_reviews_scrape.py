@@ -1,4 +1,4 @@
-# updated version of the extract of review,date, and rating
+# updated version of the extract of review,date, and rating from Trust Pilot
 from bs4 import BeautifulSoup
 import requests
 
