@@ -39,9 +39,9 @@ for rating in rating_block:
     print(rating_value)"""
 
 # Find all review headers that have the rating attribute
-review_headers = soup.find_all("div", attrs={"data-service-review-rating": True})
+review_ratings = soup.find_all("div", attrs={"data-service-review-rating": True})
 
-for header in review_headers:
+for header in review_ratings:
     #print(header)
     rating = header["data-service-review-rating"]  # <--- Get attribute like a dictionary
     print(rating)
